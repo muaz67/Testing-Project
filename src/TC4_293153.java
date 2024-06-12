@@ -34,7 +34,7 @@ public class TC4_293153 { //Review Role
         }
     }
 
-    // CMS_01_16: Test Case for Register Reviewer Account
+    // CMS_16: Test Case for Register Reviewer Account
     @Test
     public void testRegisterReviewerAccount() throws InterruptedException {
         driver.get("https://sandbox.soc-conferences.com/reviewer/login.php");
@@ -70,7 +70,7 @@ public class TC4_293153 { //Review Role
         successAlert.accept();
     }
 
-    // CMS_01_17: Test Case for Download News
+    // CMS_17: Test Case for Download News
     @Test
     public void testDownloadNews() throws InterruptedException {
         driver.get("https://sandbox.soc-conferences.com/reviewer/login.php");
@@ -94,7 +94,7 @@ public class TC4_293153 { //Review Role
         // Add necessary assertions here
     }
 
-    // CMS_01_18: Test Case for Decline Review Paper
+    // CMS_18: Test Case for Decline Review Paper
     @Test
     public void testDeclineReviewPaper() throws InterruptedException {
         driver.get("https://sandbox.soc-conferences.com/reviewer/login.php");
@@ -123,7 +123,7 @@ public class TC4_293153 { //Review Role
         // Add necessary assertions here
     }
 
-    // CMS_01_19: Test Case for Submit Review Paper
+    // CMS_19: Test Case for Submit Review Paper
     @Test
     public void testSubmitReviewPaper() throws InterruptedException {
         driver.get("https://sandbox.soc-conferences.com/reviewer/login.php");
@@ -161,7 +161,7 @@ public class TC4_293153 { //Review Role
         // Add necessary assertions here
     }
 
-    // CMS_01_20: Test Case for Create New Message
+    // CMS_20: Test Case for Create New Message
     @Test
     public void testCreateNewMessage() throws InterruptedException {
         driver.get("https://sandbox.soc-conferences.com/reviewer/login.php");
